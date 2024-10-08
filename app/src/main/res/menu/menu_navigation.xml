@@ -8,5 +8,6 @@
 
     <item
         android:id="@+id/historicoFragment"
+        android:icon="@drawable/baseline_history_24"
         android:title="Historico" />
 </menu>

@@ -15,9 +15,18 @@
         android:name="com.example.movilesp3.HistoricoFragment"
         android:label="fragment_historico"
         tools:layout="@layout/fragment_historico">
+
+
         <action
             android:id="@+id/action_historicoFragment_to_detallesFragment"
             app:destination="@id/detallesFragment" />
+        <action
+            android:id="@+id/action_historicoFragment_to_detallesFragment2"
+            app:destination="@id/detallesFragment" >
+            <argument
+                android:name="nombre"
+                app:argType="string" />
+        </action>
     </fragment>
     <fragment
         android:id="@+id/detallesFragment"
